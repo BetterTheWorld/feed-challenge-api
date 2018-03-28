@@ -4,6 +4,8 @@ This is the API for the challenge. There are 2 versions of it: Ruby on Rails and
 
 The API Endpoint details can be found below.
 
+We'd LOVE for you to write tests!! We also value code which is clean, consistent, and easily understandable.
+
 ## Ruby on Rails Challenge
 
 Fork/Clone https://github.com/BetterTheWorld/feed-challenge-rails and implement the `/feed` endpoint. The goal is to render JSON for the activities which you will pull from the API. There are 2 types of activities: `shared` and `posted`... for the different activities, you will need to pull the related data using the additional endpoints provided below. The `object` field contains a string with the ID needed to pull.
@@ -36,6 +38,8 @@ Fork/Clone https://github.com/leighhalliday/feed-challenge-react and implement t
 Do your best to make it efficient. The API is written poorly (totally beyond our control), and responds in 500ms... so the fewer requests we can make the better.
 
 It is up to you to decide how to display these activities and whether to use additional components, but the `shared` should show the url that the user (actor) has shared, and the `posted` should show the content that the user (actor) has posted.
+
+It's up to you whether you want to use component state, MobX (which we use) or Redux.
 
 ## Endpoints
 
