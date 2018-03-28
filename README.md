@@ -41,7 +41,7 @@ Fork/Clone https://github.com/leighhalliday/feed-challenge-react and implement t
 
 Do your best to make it efficient. The API is written poorly (totally beyond our control), and responds in 500ms... so the fewer requests we can make the better.
 
-It is up to you to decide how to display these activities and whether to use additional components, but the `shared` should show the url that the user (actor) has shared, and the `posted` should show the content that the user (actor) has posted.
+It is up to you to decide how to display these activities and whether to use additional components, but the `shared` should show the url that the user (actor) has shared, and the `posted` should show the content that the user (actor) has posted. You should try to make this page look good.
 
 It's up to you whether you want to use component state, MobX (which we use) or Redux.
 
