@@ -2,6 +2,8 @@
 
 This is the API for the challenge. There are 2 versions of it: Ruby and React. Choose the one which matches the role you are applying for.
 
+The API Endpoint details can be found below.
+
 ## Ruby Challenge
 
 Fork/Clone []() and implement the `/feed` endpoint. The goal is to render JSON for the activities which you will pull from the API. There are 2 types of activities: `shared` and `posted`... for the different activities, you will need to pull the related data using the additional endpoints provided below. The `object` field contains a string with the ID needed to pull.
@@ -37,8 +39,8 @@ It is up to you to decide how to display these activities and whether to use add
 
 ## Endpoints
 
-* `/activities`: Index of activities
-* `/shares/1`: An individual share.
-* `/shares?ids=1,2,3`: Index of shares, filtered by comma separated list of ids.
-* `/posts/1`: An individual post.
-* `/posts?ids=1,2,3`: Index of posts, filtered by comma separated list of ids.
+* https://feed-challenge-api.herokuapp.com/activities Index of activities
+* https://feed-challenge-api.herokuapp.com/shares/1 An individual share.
+* https://feed-challenge-api.herokuapp.com/shares?ids=1,2,3 Index of shares, filtered by comma separated list of ids.
+* https://feed-challenge-api.herokuapp.com/posts/1 An individual post.
+* https://feed-challenge-api.herokuapp.com/posts?ids=1,2,3 Index of posts, filtered by comma separated list of ids.
