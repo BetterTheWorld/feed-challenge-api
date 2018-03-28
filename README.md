@@ -33,7 +33,9 @@ The JSON being rendered should look like (changes slightly based on the activity
 ]
 ```
 
-Rails Bonus: Have the `/feed` endpoint respond in under 1 second.
+### Rails Bonus
+
+Have the `/feed` endpoint respond in under 1 second.
 
 ## React Challenge
 
@@ -45,7 +47,9 @@ It is up to you to decide how to display these activities and whether to use add
 
 It's up to you whether you want to use component state, MobX (which we use) or Redux.
 
-React Bonus: Have filters/toggles to show only the "shared" activities or opnly the "posted" activities, or all of the activities.
+### React Bonus
+
+Have filters/toggles to show only the "shared" activities or opnly the "posted" activities, or all of the activities.
 
 ## Endpoints
 
