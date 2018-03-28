@@ -33,6 +33,8 @@ The JSON being rendered should look like (changes slightly based on the activity
 ]
 ```
 
+Rails Bonus: Have the `/feed` endpoint respond in under 1 second.
+
 ## React Challenge
 
 Fork/Clone https://github.com/leighhalliday/feed-challenge-react and implement the `Activities` component. You must load the data before you can display it. There are 2 types of activities: `shared` and `posted`... for the different activities, you will need to pull the related data using the additional endpoints provided below. The `object` field contains a string with the ID needed to pull.
@@ -42,6 +44,8 @@ Do your best to make it efficient. The API is written poorly (totally beyond our
 It is up to you to decide how to display these activities and whether to use additional components, but the `shared` should show the url that the user (actor) has shared, and the `posted` should show the content that the user (actor) has posted.
 
 It's up to you whether you want to use component state, MobX (which we use) or Redux.
+
+React Bonus: Have filters/toggles to show only the "shared" activities or opnly the "posted" activities, or all of the activities.
 
 ## Endpoints
 
