@@ -49,7 +49,7 @@ It's up to you whether you want to use component state, MobX (which we use) or R
 
 ### React Bonus
 
-Have filters/toggles to show only the "shared" activities or opnly the "posted" activities, or all of the activities.
+Have filters/toggles to show only the "shared" activities or only the "posted" activities, or all of the activities.
 
 ## Endpoints
 
